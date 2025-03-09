@@ -1,0 +1,32 @@
+.eduai {
+    position: fixed; /* Fix the title at the top */
+    margin-left: 30px; /* 60px from the left */
+    font-family: 'Arial', sans-serif; /* Font family */
+    color: #2c3e50; /* Dark color for text */
+    font-size: 36px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    background-color: aquamarine;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navh1, .navh2 {
+    flex: 1; /* Each item takes equal space */
+    text-align: center; /* Center text within each item */
+    margin-left: 40px;
+}
+
+.btn {
+    margin-right: 20px; /* Add some margin to the right */
+}
